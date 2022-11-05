@@ -43,6 +43,6 @@ Esse projeto está sob a licença MIT.
 
 ---
 ##
-Deploy =  https://caetanosbr.github.io/nlw-copa/
+Deploy =  https://nlw-copa-omega.vercel.app/
 ##
 ---
