@@ -16,18 +16,20 @@
 
     <link rel="stylesheet" href="style.css" />
   </head>
-  <body class="blue">
+  <body id="bg" class="blue">
     <div id="app">
-      <header>
-        <img src="/assets/logo.svg" alt="Logo da NLW" />
 
-        <div>
-          <button onclick="temaGreen()" class="bg_yellow"></button>
-          <button onclick="temaGreen()" class="bg_green"></button>
-          <button onclick="temaBlue()" class="bg_blue"></button>
-        </div>
+      <header>
+        <img src="./assets/logo.svg" alt="Logo da NLW" />
       </header>
 
+        <div class="theme">
+          <div id="theme-yellow"></div>
+          <div id="theme-blue"></div>
+          <div id="theme-green"></div>
+          
+        </div>
+      
       <main id="cards"></main>
 
       <footer>

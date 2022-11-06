@@ -107,5 +107,24 @@ createCard('02/12', "Sexta",
 createGame('ghana','12:00','uruguay')+
 createGame('south korea','12:00','portugal')+
 createGame('serbia','16:00','switzerland')+
-createGame('cameroon','16:00','brazil')
-)
+createGame('cameroon','16:00','brazil'))
+
+let mainColor = document.getElementById("bg");
+
+let themeYellow = document.getElementById("theme-yellow").addEventListener('click', function(){
+  mainColor.classList.remove('blue');
+  mainColor.classList.remove('green');
+  mainColor.classList.add('yellow')
+});
+
+let themeGreen = document.getElementById("theme-green").addEventListener('click', function(){
+  mainColor.classList.remove('blue');
+  mainColor.classList.remove('yellow');
+  mainColor.classList.add('green');
+});
+
+let themeBlue = document.getElementById("theme-blue").addEventListener('click', function(){
+  mainColor.classList.remove('green');
+  mainColor.classList.remove('yellow');
+  mainColor.classList.add('blue');
+});
